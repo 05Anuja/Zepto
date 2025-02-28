@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    background: linear-gradient(#ECDCFF, #FFFFFF);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 1px solid; */
+}
+
+#navbar .logo img {
+    margin-left: 80px;
+    min-width: 90px;
+    margin-top: 2px;
+    height: 30px;
+}
+
+#navbar .search {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: 3px solid rgb(212, 206, 206);
+    border-radius: 10px;
+    align-items: center;
+}
+
+#navbar .search .search-icon img {
+    /* border: 1px solid; */
+    border-right: 1px solid rgb(212, 206, 206);
+    height: 23px;
+    padding: 10px;
+}
+
+#navbar .search .search-bar {
+    width: 800px;
+    height: 40px;
+    /* border: 1px solid; */
+}
+
+#navbar .login-icon img {
+    height: 40px;
+}
+
+#navbar .cart-icon img {
+    height: 40px;
+}
+
+#navbar .search .search-bar .input-box {
+    width: 800px;
+    height: 40px;
+    /* background-color: ; */
+    border-radius: 10px 10px;
+    border: none;
+    font-size: 20px;
+    outline-style: none;
+}
+
+#hero-section {
+    width: 80%;
+    margin: auto;
+    /* margin-right: ; */
+    /* padding: 16px; */
+}
+
+#hero-section img {
+    width: 1000px;
+    /* margin:  */
+}
+
+input:focus {
+    border: none;
+}
+
+
+/* #item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+} */
+
+.item .text {
+    /* font-size: 20px; */
+    font-weight: bold;
+    padding: 20px 0 0 50px;
+    margin: 0 0 25px 0;
+    text-transform: capitalize;
+}
+
+.item .products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 10px;
+    padding: 2px;
+    gap: 5px;
+}
+
+.item .products .product {
+    margin-top: 30px;
+}
+
+.item .products .product img {
+    width: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    /* border: 2px solid; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    background-size: cover;
+}
+
+
+/* #item1 .products .product img1 {
+    flex-grow: 2;
+} */
+
+.item .products .product .description {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+#delivery {
+    margin-top: 80px;
+}
+
+#delivery h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#delivery .working {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#delivery .working .work {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#delivery .working img {
+    height: 200px;
+    width: 200px;
+}
+
+#delivery .working .title {
+    /* text-align: justify; */
+    font-weight: bolder;
+}
+
+#delivery .working .description {
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+}
+
+#footer {
+    /* margin: 10px; */
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid rgb(221, 212, 212);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer .links img {
+    height: 30px;
+}
+
+#footer .links .icons {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: space-around;
+    color: grey;
+    flex-direction: row;
+}
+
+#footer .visiting_links {
+    padding: 10px;
+    /* border: 1px solid; */
+    line-height: 50px;
+}
+
+#footer .terms .policies {
+    padding: 10px;
+    line-height: 50px;
+}
